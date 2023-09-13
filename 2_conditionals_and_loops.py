@@ -1,4 +1,4 @@
-# Bo Payton 9/11/23
+# Bo Payton
 # Python Language Reference - Conditionals and Loops
 
 
