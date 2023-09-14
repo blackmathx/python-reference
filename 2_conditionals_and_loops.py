@@ -85,14 +85,16 @@ print(len('sdfsd')) # prints 5
 ########## ternary
 print('fun') if 1 < 2 else print('not fun') # prints fun
 
+
+
 ########## walrus operator, new in Python 3.8
 # TODO why is it printing boolean instead of the values?
-if something := 'wars'== 'walrus':
-    print('t')
-else:
-    print(something) # prints False?
-if val := 5 - 2 == 3:
-    print(val) # prints True?
+# if something := 'wars'== 'walrus':
+#     print('t')
+# else:
+#     print(something) # prints False?
+# if val := 5 - 2 == 3:
+#     print(val) # prints True?
 
 
 
