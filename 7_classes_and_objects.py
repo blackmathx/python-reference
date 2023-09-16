@@ -24,22 +24,16 @@ class Person:
 class Misc:
 	pass 
 
-
 p2 = Person("Emil", 26)
 print(p2.name, p2.age)
 print(p2)
 p2.say_hello()
-
 p2.title = "sir"  # add a property that doesn't exist yet
 print(p2.title)
-
 p2.age = 27  # update the age 
 print(p2)
-
 del p2.title # delete the age property
-
 del p2 # delete the object completely
-
 
 
 
@@ -90,8 +84,10 @@ class Plane(Vehicle):
 car1 = Car("Ford", "Mustang") #Create a Car object
 boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
 plane1 = Plane("Boeing", "747") #Create a Plane object
-
 for x in (car1, boat1, plane1):
   print(x.brand)
   print(x.model)
   x.move()
+
+
+# TODO example of hidden properties
