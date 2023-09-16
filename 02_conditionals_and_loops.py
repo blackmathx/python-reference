@@ -1,15 +1,14 @@
-# Bo Payton
+# eimbo
 # Python Language Reference - Conditionals and Loops
 
 
-########## if-else
+########## if-else, elif
 if 1 > 2:
     print('1 > 2')
 else:
     print('1 < 2')
 
 
-########## elif
 color = 'RED'
 if color == 'Blue':
     print('blue')
@@ -17,6 +16,8 @@ elif color == 'Green':
     print('green')
 else:
     print('RED')
+
+
 
 ########## swap variables
 a = 4
@@ -26,6 +27,7 @@ print(a, b) # prints 5 4
 
 ########## === in Python checks if equal by datatype and value
 # TODO
+
 
 
 ########## logical operators
@@ -41,6 +43,7 @@ if (0 or 1):
     print('t') # prints 't'
 if 0 | 1:
     print('t') # prints 't'
+
 
 
 ########## is, is not
@@ -84,26 +87,5 @@ print(len('sdfsd')) # prints 5
 
 ########## ternary
 print('fun') if 1 < 2 else print('not fun') # prints fun
-
-
-
-########## walrus operator, new in Python 3.8
-# TODO why is it printing boolean instead of the values?
-# if something := 'wars'== 'walrus':
-#     print('t')
-# else:
-#     print(something) # prints False?
-# if val := 5 - 2 == 3:
-#     print(val) # prints True?
-
-
-
-
-
-
-
-
-
-
 
 

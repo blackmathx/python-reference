@@ -1,4 +1,4 @@
-# Bo Payton
+# eimbo
 # Python Language Reference - Classes and Objects
 
 

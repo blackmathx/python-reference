@@ -1,4 +1,4 @@
-# Bo Payton
+# eimbo
 # Python Language Reference - Modules and Packages
 
 
@@ -20,10 +20,3 @@ print(rand(["apple", "cherry"])) # rand uses choice from random module
 
 
 
-########## standard library - math
-
-########## standard library - 
-########## standard library - 
-########## standard library - 
-########## standard library - 
-########## standard library - 

@@ -1,4 +1,4 @@
-# Bo Payton
+# eimbo
 # Python Language Reference - Lists and Tuples
 
 
@@ -57,7 +57,7 @@ fruits = ("apples", "bananas", "cherries")
 pink = tuple(fruits) # converts a list to a tuple
 green = list(pink) # converts a tuple to a list
 yellow = list('hello') # converts a string to a list ['h', 'e', 'l', 'l', 'o']
-(green, yellow, red) = fruits # unpack the tuple into variables!
+(green, yellow, red) = fruits # unpack the tuple into variables
 for y in fruits:
 	print(y)
 for i in range (len(fruits)):
