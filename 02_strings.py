@@ -1,4 +1,4 @@
-# eimbo
+
 # Python Language Reference - Strings
 
 

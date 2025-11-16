@@ -1,4 +1,4 @@
-# eimbo
+
 # Python Language Reference - Classes and Objects
 
 
