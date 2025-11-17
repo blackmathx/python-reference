@@ -1,6 +1,7 @@
+'''
+04_lists_and_tuples.py
 
-# Python Language Reference - Lists and Tuples
-
+'''
 
 ########## Lists
 
@@ -49,7 +50,6 @@ furniture.clear() # clear everything from the list
 del furniture # delete the list completely
 
 
-
 ########## Tuples
 
 # tuples are immutable, like strings, convert to list, update, then convert back to change it
@@ -66,6 +66,3 @@ veggies = ("carrots", "corn")
 food = fruits + veggies # join tuples with +
 food2 = food * 2 # duplicate the items in the tuple
 occur = food2.count("corn") # count() returns the number of times the value occurs
-
-
-

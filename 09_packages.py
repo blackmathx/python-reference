@@ -1,6 +1,4 @@
 
-# Python Language Reference - Packages
-
 
 # see reference at: https://www.programiz.com/python-programming/package
 

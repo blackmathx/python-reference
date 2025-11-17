@@ -1,6 +1,7 @@
+'''
+02_strings.py
 
-# Python Language Reference - Strings
-
+'''
 
 ########## quick notes
 poem = '''this is a 
@@ -17,20 +18,18 @@ poem_2 = r'''Boys and girls
 come out to play'''
 print(poem_2) # prints 'Boys and girls\ncome out to play
 
-
 ########## concatinate
 print('release the kraken. ' + 'no wait!') # concat
 
 ########## string manipulation
 letters = 'abcdefghijklmnopqrstuvwxyz'
-print(letters[5]) # f
-print(letters[-1]) # z
-print(letters[-2]) # y
-#letters[5] = 'j' # invalid!!!! strings are immutable
-letters.replace('f', 'j') # now it's replaced but it doesn't change letters
-letters = letters.replace('a', 'z') # now a is replaced with z
-print('ABC' + letters[3:]) # prints 'ABCdefg...'
-
+print(letters[5])
+print(letters[-1])
+print(letters[-2])
+#letters[5] = 'j' # invalid! strings are immutable
+letters.replace('f', 'j') # now it's replaced but it doesn't change 'letters' variable
+letters = letters.replace('a', 'z') 
+print('ABC' + letters[3:])
 
 ########## slice
 letters[:] # extracts entire sequence start to end
@@ -45,7 +44,7 @@ print(len(letters)) # 26
 ########## split
 tasks = 'get gloves, get mask,give cat vitamins,visit ann'
 list_1 = tasks.split(',') # provides list split on ','
-list_2 = tasks,split() # provides list split on spaces, newlines or tabs, ie any whtiespace characters
+list_2 = tasks.split() # provides list split on spaces, newlines or tabs, ie any whtiespace characters
 
 ########## join
 crypto_list = ['Yeti', 'Bigfoot', 'Loch Ness Monster']
@@ -74,7 +73,7 @@ word = 'we'
 print(poem_3.find(word)) # prints 19
 print(poem_3.index(word))
 print(poem_3.find('moreover')) # prints -1, not found
-print(poem_3.index('moreover')) # invalid!!!! no index found
+# print(poem_3.index('moreover')) # invalid!!!! no index found
 print(poem_3.count(word)) # prints count of 1
 print(poem_3.isalnum()) # prints if it's all alpha numeric, so True
 
@@ -82,12 +81,9 @@ print(poem_3.isalnum()) # prints if it's all alpha numeric, so True
 duck = 'a duck goes quack'
 duck.capitalize() # cap the first word
 duck.title() # cap all words
-duck.upper() # all to uppercase
-duck.lower() # all to lowercase
+duck.upper()
+duck.lower()
 duck.swapcase() # swap all cases
-
-
-
 
 # f strings
 # TODO

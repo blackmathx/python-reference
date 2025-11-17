@@ -1,13 +1,13 @@
+'''
+03_conditionals_and_loops.py
 
-# Python Language Reference - Conditionals and Loops
-
+'''
 
 ########## if-else, elif
 if 1 > 2:
     print('1 > 2')
 else:
     print('1 < 2')
-
 
 color = 'RED'
 if color == 'Blue':
@@ -17,8 +17,6 @@ elif color == 'Green':
 else:
     print('RED')
 
-
-
 ########## swap variables
 a = 4
 b = 5
@@ -27,8 +25,6 @@ print(a, b) # prints 5 4
 
 ########## === in Python checks if equal by datatype and value
 # TODO
-
-
 
 ########## logical operators
 if (True and True):
@@ -43,8 +39,6 @@ if (0 or 1):
     print('t') # prints 't'
 if 0 | 1:
     print('t') # prints 't'
-
-
 
 ########## is, is not
 if 0 is False: # is. checks if two values are located on the same part of memory. equals does not imply identical
@@ -66,8 +60,6 @@ if z1 is z2:
 else:
     print('f') # prints 'f'
 
-
-
 ########## in, not in
 # test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary)
 m = [1, 2, 3] # list
@@ -84,8 +76,5 @@ print('t') if 'o' in vowel_string else print('f') # prints 't'
 print('sdf' * 3) # prints 'sdfsdfsdf'
 print(len('sdfsd')) # prints 5
 
-
 ########## ternary
 print('fun') if 1 < 2 else print('not fun') # prints fun
-
-

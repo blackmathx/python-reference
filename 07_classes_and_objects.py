@@ -1,10 +1,7 @@
+'''
+07_classes_and_objects.py
 
-# Python Language Reference - Classes and Objects
-
-
-
-
-
+'''
 
 # self parameter is a reference to the current instance of the calss and used to access variables
 # self does not have to be named 'self', but it is the first parameter in any function in the class
@@ -19,7 +16,6 @@ class Person:
 	def __str__(self): # __str__() is a to-string method, without it the default is unreadable
 		return f"{self.name}({self.age})"
 	
-
 # use the pass statement in a class because it can't be empty
 class Misc:
 	pass 
@@ -34,7 +30,6 @@ p2.age = 27  # update the age
 print(p2)
 del p2.title # delete the age property
 del p2 # delete the object completely
-
 
 
 ########## Inheritance
@@ -57,9 +52,6 @@ s1 = Student("tabius", "muller", 23, "boys")
 s1.say_hello()
 print(s1.likes)
 s1.welcome()
-
-
-
 
 ########## Inheritance Class Polymorphism example
 class Vehicle:

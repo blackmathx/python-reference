@@ -1,7 +1,7 @@
+'''
+06_functions.py
 
-# Python Language Reference - Functions
-
-
+'''
 
 # function with argments and return value
 def my_function(fname, lname):
@@ -25,20 +25,17 @@ def my_function2(*kids):
 
 my_function2("emil", "tobias", "lionel")
 
-
 # any number of arguments, otherwise known as *kwargs in the docs. The argument type is 'dict'
 def my_function3(**kid):
 	print("last name is " + kid["lname"])
 
 my_function3(fname = "hank", lname = "spore")
 
-
 # default parameter value
 def my_function4(country = "Norway"):
 	print("from " + country)
 
 my_function4() # if no input, the default value is used
-
 
 # pass a list as an argument
 def my_list_fn(food):
@@ -47,5 +44,3 @@ def my_list_fn(food):
 
 food = ['apple', 'corn chowder', 'french fries']
 my_list_fn(food)
-
-

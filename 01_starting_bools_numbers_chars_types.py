@@ -9,7 +9,9 @@ import sys
 
 
 print(dir(cmath)) # dir() returns a list of all module functions
-print(help(os)) # help()
+
+# print(help(os)) # help() manual in the terminal
+
 print(sys.argv) # ex: ['demo.py', 'one', 'two'] # read command line arguments
 
 

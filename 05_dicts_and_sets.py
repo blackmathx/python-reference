@@ -1,6 +1,7 @@
+'''
+05_dicts_and_sets.py
 
-# Python Language Reference - Dictionaries and Sets
-
+'''
 
 ########## Dictionaries
 
@@ -58,6 +59,3 @@ set_a.symmetric_difference_update(set_c) # keep items not present in both sets
 print(set_a.pop()) # returns and removes a random item!!!!
 set_a.clear() # clears everything form the set
 del set_a # deletes the set completely
-
-
-

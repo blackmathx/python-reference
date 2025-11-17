@@ -1,7 +1,4 @@
 
-# Python Language Reference - Dates and Times
-
-
 from datetime import date
 
 halloween = date(2023, 10, 31)

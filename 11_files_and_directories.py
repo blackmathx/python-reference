@@ -1,6 +1,4 @@
 
-# Python Language Reference - Files and Directories
-
 import os
 import time
 
