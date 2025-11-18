@@ -7,6 +7,7 @@ matplotlib.use("Agg") # Headless backend and save to files
 import matplotlib.pyplot as plt
 
 
+print("\nRandom  Numbers\n")
 a = np.random.random()
 b = np.random.random(2) # random array  of len 2
 c = np.random.randint(0, 11, 3) # 3 random numbers in [1, 10]
